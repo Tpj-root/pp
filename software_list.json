@@ -78,5 +78,35 @@
       "description": "GLUT, a toolkit for creating OpenGL applications.",
       "enable": 1
     }
+  },
+  "Photo_Editing": {
+    "gimp": {
+      "description": "GIMP (GNU Image Manipulation Program)",
+      "enable": 1
+    }
+  },
+  "Video_Processing": {
+    "ffmpeg": {
+      "description": "converting formats, streaming, and editing video or audio files",
+      "enable": 1
+    }
+  },
+  "sample": {
+    "sample": {
+      "description": "sample",
+      "enable": 1
+    },
+    "sample1": {
+      "description": "sample1",
+      "enable": 1
+    },
+    "sample2": {
+      "description": "sample2",
+      "enable": 1
+    },
+    "sample3": {
+      "description": "sample3",
+      "enable": 1
+    }
   }
 }

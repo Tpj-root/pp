@@ -125,6 +125,7 @@ print_colored() {
 }
 
 # Function to install software
+# --install-recommends flag
 install_software() {
     local software=$1
 
@@ -133,9 +134,9 @@ install_software() {
         # Print the software name in green
         echo -e "\033[0;32m$software\033[0m is already installed."
     else
-        echo "Installing $software..."
-        sudo apt update
-        sudo apt install -y "$software"
+        echo "Installing $software and its recommended packages..."
+        sudo apt-get update
+        sudo apt-get install -y --install-recommends "$software"
     fi
 }
 

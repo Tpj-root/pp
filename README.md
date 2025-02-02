@@ -40,3 +40,27 @@ Example Commands:
 
 
 
+### Check if the JSON file is valid
+
+```
+jq . yourfile.json
+
+```
+
+
+
+
+
+![main](img/main.png)
+
+
+
+
+
+### To-Do List:
+
+    [] Add .json input file arguments.
+    [] Add and edit the JSON file via the terminal.
+    [] dpkg -l into json
+    
+    
