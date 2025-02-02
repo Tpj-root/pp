@@ -1,0 +1,82 @@
+{
+  "basic": {
+    "fonts-taml": {
+      "description": "A package providing Tamil font support for Linux systems.",
+      "enable": 0
+    },
+    "git": {
+      "description": "A version control system for tracking changes in source code.",
+      "enable": 1
+    },
+    "gedit": {
+      "description": "A simple text editor for the GNOME desktop environment.",
+      "enable": 1
+    },
+    "curl": {
+      "description": "A command-line tool for transferring data with URLs.",
+      "enable": 1
+    },
+    "xclip": {
+      "description": "A command-line interface to interact with the X clipboard.",
+      "enable": 1
+    },
+    "figlet": {
+      "description": "A program that generates text banners using ASCII characters.",
+      "enable": 1
+    },
+    "firefox": {
+      "description": "A popular open-source web browser known for speed, privacy features, and customization options.",
+      "enable": 0
+    }
+  },
+  "development": {
+    "gcc": {
+      "description": "C compiler",
+      "enable": 1
+    },
+    "g++": {
+      "description": "C++ compiler",
+      "enable": 1
+    },
+    "gdb": {
+      "description": "Debugger",
+      "enable": 1
+    },
+    "cmake": {
+      "description": "CMake is a cross-platform build system that automates build generation and project configuration.",
+      "enable": 1
+    },
+    "ninja-build": {
+      "description": "Ninja is a fast build tool.",
+      "enable": 1
+    }
+  },
+  "library": {
+    "libglfw3-dev": {
+      "description": "Development package for GLFW, a library for creating windows and managing OpenGL contexts.",
+      "enable": 1
+    },
+    "libboost-dev": {
+      "description": "High-performance C++ libraries for tasks like multithreading, filesystem operations, networking, and mathematical computations.",
+      "enable": 1
+    },
+    "libssl-dev": {
+      "description": "SSL/TLS libraries for secure communication.",
+      "enable": 1
+    }
+  },
+  "ImGui_Dependencies": {
+    "libfreetype6-dev": {
+      "description": "FreeType a library used for rendering fonts, enabling text display in graphics applications.",
+      "enable": 1
+    },
+    "libsdl2-dev": {
+      "description": "SDL2, a multimedia library for handling graphics, input, and sound.",
+      "enable": 1
+    },
+    "freeglut3-dev": {
+      "description": "GLUT, a toolkit for creating OpenGL applications.",
+      "enable": 1
+    }
+  }
+}
