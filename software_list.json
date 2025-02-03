@@ -91,7 +91,23 @@
       "enable": 1
     }
   },
-  "sample": {
+  "Kali_Tools": {
+    "aircrack-ng": {
+      "description": "wireless WEP/WPA cracking utilities",
+      "enable": 1
+    },
+    "crunch": {
+      "description": "tool for creating wordlist",
+      "enable": 1
+    }
+  },
+    "Fun": {
+    "cowsay": {
+      "description": "configurable talking cow",
+      "enable": 1
+    }
+  },
+    "sample": {
     "sample": {
       "description": "sample",
       "enable": 1
