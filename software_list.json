@@ -27,7 +27,33 @@
     "firefox": {
       "description": "A popular open-source web browser known for speed, privacy features, and customization options.",
       "enable": 0
+    },
+        "gnome-font-viewer": {
+      "description": "font viewer for GNOME",
+      "enable": 0
+    },
+        "font-manager": {
+      "description": "Simple font management for GTK+ desktop environments",
+      "enable": 1
+    },
+        "vlc": {
+      "description": "VLC media player",
+      "enable": 1
+    },
+        "transmission": {
+      "description": "Transmission is a BitTorrent client",
+      "enable": 1
+    },
+        "transmission": {
+      "description": "Transmission is a BitTorrent client",
+      "enable": 1
+    },
+        "axel": {
+      "description": "light command line download accelerator",
+      "enable": 1
     }
+
+
   },
   "development": {
     "gcc": {
@@ -44,6 +70,10 @@
     },
     "cmake": {
       "description": "CMake is a cross-platform build system that automates build generation and project configuration.",
+      "enable": 1
+    },
+    "ruby": {
+      "description": "Interpreted object-oriented scripting language",
       "enable": 1
     },
     "ninja-build": {
@@ -63,7 +93,12 @@
     "libssl-dev": {
       "description": "SSL/TLS libraries for secure communication.",
       "enable": 1
+    },
+        "libeigen3-dev": {
+      "description": "Eigen is a C++ template library used for linear algebra computations.",
+      "enable": 1
     }
+
   },
   "ImGui_Dependencies": {
     "libfreetype6-dev": {
@@ -98,6 +133,10 @@
     },
     "crunch": {
       "description": "tool for creating wordlist",
+      "enable": 1
+    },
+    "nmap": {
+      "description": "Network exploration tool and security / port scanner",
       "enable": 1
     }
   },
