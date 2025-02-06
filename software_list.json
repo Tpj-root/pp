@@ -97,6 +97,25 @@
         "libeigen3-dev": {
       "description": "Eigen is a C++ template library used for linear algebra computations.",
       "enable": 1
+    },
+        "libfmt-dev": {
+      "description": "fmt - simple optimal text formatter.",
+      "enable": 1
+    },
+        "libglm-dev": {
+      "description": "OpenGL Mathematics",
+      "enable": 1
+    },
+        "libglew-dev": {
+      "description": "OpenGL Extension Wrangler",
+      "enable": 1
+    }
+
+  },
+  "library_kin": {
+    "liborocos-kdl-dev": {
+      "description": "Orocos KDL (Kinematics and Dynamics Library)",
+      "enable": 1
     }
 
   },
@@ -153,6 +172,24 @@
     },
     "sample1": {
       "description": "sample1",
+      "enable": 1
+    },
+    "sample2": {
+      "description": "sample2",
+      "enable": 1
+    },
+    "sample3": {
+      "description": "sample3",
+      "enable": 1
+    }
+  },
+    "Rust": {
+    "rustc": {
+      "description": "Rust compiler",
+      "enable": 1
+    },
+    "cargo": {
+      "description": "package manager and build tool",
       "enable": 1
     },
     "sample2": {

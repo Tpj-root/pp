@@ -49,6 +49,17 @@ jq . yourfile.json
 
 
 
+### Tips
+
+```
+
+ dpkg -s <pak name>
+
+```
+
+
+
+
 
 
 ![main](img/main.png)
